@@ -1,0 +1,80 @@
+body {
+  background-color: #fff5d6;
+  margin: 0;
+  padding: 0;
+}
+
+/* inicio da pagina */
+header {
+  background-image: url("fantastic4.jpg");
+  background-size: 2000px 150px;
+  background-position: center;
+  padding: 15px;
+  text-align: center;
+}
+
+/* barra de links */
+
+ul.topnav {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #d0ecea;
+}
+
+ul.topnav li a {
+  display: block;
+  color: #ffba6b;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover {
+  background-color: #ffbd68;
+  color: #e4844a;
+  border-radius: 15px;
+}
+  
+  
+/* fotos */
+  
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+ 
+  }
+  
+ .galeria img {
+   width: 250px;
+   height: 250px;
+   border-radius: 20px;
+   cursor: pointer;
+ 
+ }
+ 
+ .galeria img:hover {
+   transform: scale(1.05);
+ }
+ 
+ 
+/* roda-pe */
+ 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f78145;
+  padding: 9px;
+  text-align: center;
+}
+
+.footer-texto {
+    flex: 1;
+}
+
+.footer-imagem {
+    flex-shrink: 0;
+    align-items: center;
+}
