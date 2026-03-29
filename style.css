@@ -2,14 +2,13 @@ body {
   background-imagem: url("dark.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  margin: 0;
   padding: 0;
 }
 
 /* inicio da pagina */
 header {
-  background-image: url("note.jpg");
-  background-size: 2000px 150px;
-  background-position: center;
+  color: #00;
   padding: 15px;
   text-align: center;
 }
