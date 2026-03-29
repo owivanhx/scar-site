@@ -1,12 +1,13 @@
 body {
   background-imagem: url("dark.jpg")
-  margin: 0;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 0;
 }
 
 /* inicio da pagina */
 header {
-  background-image: url("fantastic4.jpg");
+  background-image: url("note.jpg");
   background-size: 2000px 150px;
   background-position: center;
   padding: 15px;
