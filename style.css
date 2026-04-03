@@ -43,10 +43,60 @@ ul.topnav li a:hover {
   color: #686867;
   border-radius: 10px;
 }
+
+
+/* Área do carrossel com overflow escondido */
+.carousel {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+/* Track que contém as imagens - animação contínua */
+.carousel-track {
+  display: flex;
+  width: fit-content;
+  animation: scrollCarousel 40s linear infinite;
+}
+
+/* Item do carrossel - tamanho fixo, sem aumento */
+.carousel-item {
+  flex-shrink: 0;
+  width: 250px;
+  height: 250px;
+  margin-right: 15px;
+  transition: none;
+  transform: scale(1);
+}
+
+/* Estilo das imagens */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  display: block;
+  transition: none;
+}
+
+/* Animação de loop infinito */
+@keyframes scrollCarousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pausa a animação? NÃO! Mesmo com hover, continua */
+.carousel:hover .carousel-track {
+  animation-play-state: running;
+}
   
   
 /* fotos */
-  
 .galeria {
   display: flex;
   justify-content: center;
@@ -68,7 +118,6 @@ ul.topnav li a:hover {
  
  
 /* roda-pe */
- 
 .footer {
   display: flex;
   justify-content: space-between;
