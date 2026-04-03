@@ -4,13 +4,13 @@
     align-items: center;
     text-align: center;
     height: 81vh;
-    color: #ac0d0d;
+    color: #f2f4f3;
 }
 
 .quadrado {
     width: 900px;
     height: 600px;
-    background-color: #f5e3ae;
+    background-color: #100e11;
     border-radius: 10px;
     gap: 20px;
 }
@@ -33,7 +33,7 @@
 
 /* links */
 .menu-link {
-  color: #a2d3c7;
+  color: #dbcbc1;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -43,7 +43,7 @@
 }
 
 .menu-link::before {
-  content: '➢';
+  content: '✦';
   position: absolute;
   left: -20px;
   opacity: 0;
@@ -53,7 +53,7 @@
 .menu-link:hover {
   background: #fef7e1;
   padding-left: 30px;
-  color: #ef8e7d;
+  color: #674b74;
 }
 
 .menu-link:hover::before {
