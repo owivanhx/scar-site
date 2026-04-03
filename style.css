@@ -10,7 +10,7 @@ body {
 
 /* inicio da pagina */
 header {
-  background-color: #000000;
+  background: url("wellhouse.jpg");
   padding: 15px;
   text-align: center;
 }
