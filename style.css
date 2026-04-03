@@ -89,14 +89,7 @@ ul.topnav li a:hover {
 /* Pausa a animação? NÃO! Mesmo com hover, continua */
 .carousel:hover .carousel-track {
   animation-play-state: running;
-}
-
-@media (max-width: 768px) {
-  .carousel-item {
-    width: 99px;
-    height: 56px;
-    margin-right: 8px;
-  
+} 
   
 /* fotos */
 .galeria {
