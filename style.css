@@ -11,8 +11,8 @@ body {
 /* inicio da pagina */
 header {
   background: url("wellhouse.jpg");
-  background-repeat: no-repeat;
   background-size: 2000px 150px;
+  background-position: center;
   padding: 15px;
   text-align: center;
 }
@@ -24,7 +24,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #0e141c;
+  background-color: #181718;
 }
 
 ul.topnav li a {
@@ -35,8 +35,8 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-  background-color: #061222;
-  color: #58c0db;
+  background-color: #8b9495;
+  color: #686867;
   border-radius: 10px;
 }
   
@@ -69,7 +69,7 @@ ul.topnav li a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #4b0808;
+  background-color: #44413d;
   padding: 9px;
   text-align: center;
 }
