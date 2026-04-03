@@ -22,20 +22,20 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #d0ecea;
+  background-color: #0e141c;
 }
 
 ul.topnav li a {
   display: block;
-  color: #ffba6b;
+  color: #fbf9e4;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 ul.topnav li a:hover {
-  background-color: #ffbd68;
-  color: #e4844a;
-  border-radius: 15px;
+  background-color: #061222;
+  color: #58c0db;
+  border-radius: 10px;
 }
   
   
