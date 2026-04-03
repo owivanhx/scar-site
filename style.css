@@ -90,6 +90,12 @@ ul.topnav li a:hover {
 .carousel:hover .carousel-track {
   animation-play-state: running;
 }
+
+@media (max-width: 768px) {
+  .carousel-item {
+    width: 99px;
+    height: 56px;
+    margin-right: 8px;
   
   
 /* fotos */
