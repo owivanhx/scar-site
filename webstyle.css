@@ -10,7 +10,7 @@ body {
     align-items: center;
     text-align: center;
     height: 81vh;
-    color: #6dbe47;
+    color: #b08c64;
 }
 
 .quadrado {
@@ -39,7 +39,7 @@ body {
 
 /* links */
 .menu-link {
-  color: #dbcbc1;
+  color: #d0ccc8;
   text-decoration: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -49,7 +49,7 @@ body {
 }
 
 .menu-link::before {
-  content: '✦';
+  content: '✦ ';
   position: absolute;
   left: -20px;
   opacity: 0;
@@ -59,7 +59,7 @@ body {
 .menu-link:hover {
   background: #fef7e1;
   padding-left: 30px;
-  color: #674b74;
+  color: #595246;
 }
 
 .menu-link:hover::before {
