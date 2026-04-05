@@ -23,10 +23,9 @@ body {
 
 /* Estilo da imagem em preto e branco */
 .galeria-filmes {
-  width: 400px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
+  width: 150px;
+  height: 225px;
+  border-radius: 8px;
             
   /* Aplica filtro preto e branco */
   filter: grayscale(100%);
