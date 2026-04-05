@@ -1,0 +1,47 @@
+body {
+  font-family: "Unica One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 81vh;
+    color: #85817d;
+}
+
+.quadrado {
+    width: 900px;
+    height: auto;
+    backgound-imagem: url("allstar.jpg");
+    border-radius: 10px;
+    gap: 20px;
+}
+
+/* Estilo da imagem em preto e branco */
+.galeria-filmes {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+            
+  /* Aplica filtro preto e branco */
+  filter: grayscale(100%);
+            
+  /* Transição suave */
+  transition: filter 0.3s ease;
+}
+
+/* Ao passar o mouse, remove o filtro (volta as cores) */
+.galeria-filmes:hover {
+  filter: grayscale(0%);
+}
+
+/* Título e descrição */
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
