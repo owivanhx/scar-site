@@ -14,9 +14,9 @@ body {
 }
 
 .quadrado {
-    width: 900px;
+    width: 1000px;
     height: auto;
-    backgound-imagem: url("allstar.jpg");
+    backgound: url("allstar.jpg");
     border-radius: 10px;
     gap: 20px;
 }
@@ -25,7 +25,7 @@ body {
 .galeria-filmes {
   width: 150px;
   height: 225px;
-  border-radius: 8px;
+  border-radius: 9px;
             
   /* Aplica filtro preto e branco */
   filter: grayscale(100%);
@@ -37,10 +37,4 @@ body {
 /* Ao passar o mouse, remove o filtro (volta as cores) */
 .galeria-filmes:hover {
   filter: grayscale(0%);
-}
-
-/* Título e descrição */
-h1 {
-  color: white;
-  margin-bottom: 20px;
 }
