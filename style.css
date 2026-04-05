@@ -110,6 +110,12 @@ ul.topnav li a:hover {
  .galeria img:hover {
    transform: scale(1.05);
  }
+
+ .legenda {
+  text-align: center;
+  margin-top: 10px;
+  color: #f2f2f2;
+}
  
  
 /* roda-pe */
