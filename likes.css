@@ -16,7 +16,7 @@ body {
 .quadrado {
     width: 1000px;
     height: auto;
-    backgound: url("allstar.jpg");
+    backgound-colo: #8b9495;
     border-radius: 10px;
     gap: 20px;
 }
@@ -24,7 +24,6 @@ body {
 /* Estilo da imagem em preto e branco */
 .galeria-filmes {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
   width: 150px;
   height: 225px;
   border-radius: 9px;
