@@ -23,7 +23,6 @@ body {
 
 /* Estilo da imagem em preto e branco */
 .galeria-filmes {
-  display: grid;
   width: 150px;
   height: 225px;
   border-radius: 9px;
