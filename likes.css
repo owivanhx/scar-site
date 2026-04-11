@@ -23,9 +23,12 @@ body {
 
 /* Estilo da imagem em preto e branco */
 .galeria-filmes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   width: 150px;
   height: 225px;
   border-radius: 9px;
+  gap: 20px;
             
   /* Aplica filtro preto e branco */
   filter: grayscale(100%);
