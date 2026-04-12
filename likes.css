@@ -14,13 +14,16 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  backgound: #8b9495;
+  backgound: #0d0d0d;
+  align-items: center;
+  text-align: center;
   border-radius: 20px;
   padding: 30px;
 }
 
 .grid {
   display: grid;
+  color: #8b9495;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 25px;
   justify-items: center;
