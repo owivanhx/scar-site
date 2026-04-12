@@ -15,9 +15,9 @@ body {
 }
 
 .grid {
-  display: grid;
+  display: flex;
   color: #8b9495;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  flex-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   border-radius: 10px;
   gap: 25px;
 }
