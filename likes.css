@@ -1,37 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Unica One", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding: 40px;
 }
 
 .container {
-  display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
-  gap: 10px;
-  margin-top: 20px;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 81vh;
-  color: #85817d;
+  max-width: 1200px;
+  margin: 0 auto;
+  backgound: #8b9495;
+  border-radius: 20px;
+  padding: 30px;
 }
 
-.quadrado {
-    width: 1000px;
-    height: auto;
-    backgound-colo: #8b9495;
-    border-radius: 10px;
-    gap: 20px;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 25px;
+  justify-items: center;
 }
 
 /* Estilo da imagem em preto e branco */
-.galeria-filmes {
+.card {
   position: relative;
-  overflow: hidden;
   width: 150px;
   height: 225px;
   border-radius: 9px;
   gap: 20px;
+  overflow: hidden;
             
   /* Aplica filtro preto e branco */
   filter: grayscale(100%);
@@ -41,6 +43,6 @@ body {
 }
 
 /* Ao passar o mouse, remove o filtro (volta as cores) */
-.galeria-filmes:hover {
+.card:hover {
   filter: grayscale(0%);
 }
