@@ -138,13 +138,50 @@
       font-size: 0.7rem;
     }
 
-    /* selo member - BORDAS RETAS */
+    /* MEMBER BOX - com imagens 99x56px */
     .member-box {
-      margin-top: 1.8rem;
+      margin-top: 1.5rem;
       text-align: center;
       background: #f9ecf3;
       padding: 1rem;
       border: 1px solid #ffdbef;
+    }
+
+    .member-box p {
+      color: #b4628a;
+      font-size: 0.7rem;
+      margin-bottom: 0.8rem;
+      font-weight: bold;
+    }
+
+    .member-links {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .member-link {
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+
+    .member-link:hover {
+      transform: translateY(-3px);
+    }
+
+    .member-link img {
+      width: 99px;
+      height: 56px;
+      object-fit: cover;
+      border: 1.5px solid #ffd2e8;
+      transition: all 0.2s ease;
+      display: block;
+    }
+
+    .member-link:hover img {
+      border-color: #e6a4c4;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
     }
 
     .scarecrow {
