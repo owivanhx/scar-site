@@ -1,0 +1,226 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(145deg, #f9eef7 0%, #f5e4f0 100%);
+      font-family: 'Segoe UI', 'Courier New', 'Quicksand', monospace;
+      padding: 2rem;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    /* fundo com corações e estrelinhas */
+    body::before {
+      content: "♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡";
+      position: fixed;
+      bottom: 10px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0.25;
+      white-space: nowrap;
+      pointer-events: none;
+      color: #e6b0ce;
+      z-index: 0;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      background: rgba(255, 250, 245, 0.9);
+      backdrop-filter: blur(3px);
+      border: 2px solid #ffcded;
+      padding: 2rem;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05), 0 0 0 8px #fff2f9;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* cabeçalho fofo */
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+      border-bottom: 2px dotted #f3c4de;
+      padding-bottom: 1.5rem;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      background: linear-gradient(135deg, #e6a4c4, #c49be0);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: -1px;
+      word-break: keep-all;
+    }
+
+    .header p {
+      color: #b3839f;
+      font-size: 1.1rem;
+      margin-top: 8px;
+    }
+
+    .sorry-badge {
+      background: #ffe0f0;
+      display: inline-block;
+      padding: 0.3rem 1.2rem;
+      font-size: 0.8rem;
+      color: #bf7fa0;
+      margin-top: 12px;
+      border: 1px solid #ffc2dd;
+    }
+
+    /* grid principal */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    /* SIDEBAR ESQUERDA - BORDAS RETAS */
+    .nav-side {
+      background: #fff7fb;
+      padding: 1.5rem;
+      border: 1px solid #ffdcf0;
+      box-shadow: 0 5px 12px #f0d4e6;
+    }
+
+    .nav-side h3 {
+      color: #d48bb2;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #f3afcf;
+      padding-left: 10px;
+    }
+
+    .nav-links {
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .nav-links li {
+      margin: 0.7rem 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      border-bottom: 1px dotted #f3d0e4;
+      padding-bottom: 0.3rem;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #b47294;
+      font-weight: 500;
+      transition: 0.2s;
+      font-size: 1rem;
+    }
+
+    .nav-links a:hover {
+      color: #e08cb0;
+      transform: translateX(4px);
+      display: inline-block;
+    }
+
+    .date {
+      font-size: 0.7rem;
+      color: #dbb0c4;
+      font-family: monospace;
+    }
+
+    .dots {
+      color: #e6bed4;
+      font-size: 0.7rem;
+    }
+
+    /* selo member - BORDAS RETAS */
+    .member-box {
+      margin-top: 1.8rem;
+      text-align: center;
+      background: #f9ecf3;
+      padding: 1rem;
+      border: 1px solid #ffdbef;
+    }
+
+    .scarecrow {
+      font-size: 2rem;
+      margin: 10px 0;
+    }
+
+    .jalp {
+      background: #ffeaf3;
+      padding: 0.4rem;
+      font-weight: bold;
+      color: #b4628a;
+      font-size: 0.8rem;
+    }
+
+    /* LADO DIREITO - BORDAS RETAS */
+    .right-content {
+      background: #fffafd;
+      padding: 1.5rem;
+      border: 1px solid #ffe0f0;
+    }
+
+    .log-entry {
+      background: #fff5fa;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-left: 6px solid #f3bfdb;
+    }
+
+    .log-entry .log-title {
+      font-weight: bold;
+      color: #c384a6;
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+
+    .log-entry p {
+      color: #6e4f64;
+      font-size: 0.9rem;
+      line-height: 1.4;
+    }
+
+    hr {
+      margin: 1rem 0;
+      border: none;
+      height: 2px;
+      background: linear-gradient(to right, #ffd2e8, transparent);
+    }
+
+    .inactive-message {
+      background: #faeef5;
+      padding: 0.8rem;
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+      color: #bc799b;
+    }
+
+    footer {
+      margin-top: 2rem;
+      text-align: center;
+      font-size: 0.7rem;
+      color: #cf9dbb;
+    }
+
+    @media (max-width: 750px) {
+      .main-grid {
+        grid-template-columns: 1fr;
+      }
+      .container {
+        padding: 1.2rem;
+      }
+      .header h1 {
+        font-size: 1.8rem;
+      }
+    }
