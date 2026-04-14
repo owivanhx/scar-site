@@ -1,32 +1,36 @@
-    * {
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
     }
 
-    body {
-      background: linear-gradient(145deg, #f9eef7 0%, #f5e4f0 100%);
-      font-family: 'Segoe UI', 'Courier New', 'Quicksand', monospace;
-      padding: 2rem;
-      min-height: 100vh;
-      position: relative;
-    }
+body {
+   background: url("fuundo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   font-family: 'Segoe UI', 'Courier New', 'Quicksand', monospace;
+   padding: 2rem;
+   min-height: 100vh;
+   position: relative;
+}
 
-    /* fundo com corações e estrelinhas */
-    body::before {
-      content: "♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡";
-      position: fixed;
-      bottom: 10px;
-      left: 0;
-      right: 0;
-      text-align: center;
-      font-size: 14px;
-      opacity: 0.25;
-      white-space: nowrap;
-      pointer-events: none;
-      color: #e6b0ce;
-      z-index: 0;
-    }
+/* fundo com corações e estrelinhas */
+body::before {
+   content: "♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡";
+   position: fixed;
+   bottom: 10px;
+   left: 0;
+   right: 0;
+   text-align: center;
+   font-size: 14px;
+   opacity: 0.25;
+   white-space: nowrap;
+   pointer-events: none;
+   color: #e6b0ce;
+   z-index: 0;
+}
 
     .container {
       max-width: 1100px;
