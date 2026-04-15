@@ -18,7 +18,7 @@ body {
 
 /* fundo com corações e estrelinhas */
 body::before {
-   content: "♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡ ✦ ⋆ ˚｡⋆ ♡";
+   content: "　　.   　　˚　　 　　*　　 　　✦　　　.　　.　　　✦　˚ 　　　　 ˚　.˚　　　　✦　　　.　　. 　 ˚　.";
    position: fixed;
    bottom: 10px;
    left: 0;
@@ -28,14 +28,14 @@ body::before {
    opacity: 0.25;
    white-space: nowrap;
    pointer-events: none;
-   color: #e6b0ce;
+   color: #f0e999;
    z-index: 0;
 }
 
     .container {
       max-width: 1100px;
       margin: 0 auto;
-      background: rgba(255, 250, 245, 0.9);
+      background: #f6f1de;
       backdrop-filter: blur(3px);
       border: 2px solid #ffcded;
       padding: 2rem;
@@ -88,17 +88,17 @@ body::before {
 
     /* SIDEBAR ESQUERDA - BORDAS RETAS */
     .nav-side {
-      background: #fff7fb;
+      background: #e7e8e7;
       padding: 1.5rem;
-      border: 1px solid #ffdcf0;
-      box-shadow: 0 5px 12px #f0d4e6;
+      border: 1px solid #394a56;
+      box-shadow: 0 5px 12px #22303f;
     }
 
     .nav-side h3 {
-      color: #d48bb2;
+      color: #488db4;
       font-size: 1.2rem;
       margin-bottom: 1rem;
-      border-left: 4px solid #f3afcf;
+      border-left: 4px solid #022f56;
       padding-left: 10px;
     }
 
@@ -113,20 +113,20 @@ body::before {
       justify-content: space-between;
       align-items: baseline;
       flex-wrap: wrap;
-      border-bottom: 1px dotted #f3d0e4;
+      border-bottom: 1px dotted #90b7bf;
       padding-bottom: 0.3rem;
     }
 
     .nav-links a {
       text-decoration: none;
-      color: #b47294;
+      color: #212842;
       font-weight: 500;
       transition: 0.2s;
       font-size: 1rem;
     }
 
     .nav-links a:hover {
-      color: #e08cb0;
+      color: #f0e7d5;
       transform: translateX(4px);
       display: inline-block;
     }
