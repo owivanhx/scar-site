@@ -1,0 +1,72 @@
+    /* LADO DIREITO - IMAGENS MENORES */
+    .right-content {
+      background: #fffafd;
+      padding: 1.2rem;
+      border: 1px solid #ffe0f0;
+    }
+
+    .right-title {
+      color: #d48bb2;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      border-left: 4px solid #f3afcf;
+      padding-left: 10px;
+    }
+
+    /* Grid de 8 imagens - agora em 4 colunas para ficarem menores */
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    /* Card de cada imagem - tamanho pequeno */
+    .image-card {
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .image-card:hover {
+      transform: translateY(-3px);
+    }
+
+    .image-card a {
+      text-decoration: none;
+    }
+
+    .image-card img {
+      width: 100%;
+      height: 100px;
+      object-fit: cover;
+      border: 1.5px solid #ffd2e8;
+      transition: all 0.2s ease;
+      display: block;
+    }
+
+    .image-card:hover img {
+      border-color: #e6a4c4;
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-card .img-label {
+      margin-top: 6px;
+      color: #b47294;
+      font-size: 0.7rem;
+      font-weight: 500;
+    }
+
+    .image-card:hover .img-label {
+      color: #e08cb0;
+    }
+
+
+      .image-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .image-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
