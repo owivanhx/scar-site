@@ -5,15 +5,23 @@
     }
 
 body {
-   background: url("fuundo.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: center;
-   background-attachment: fixed;
-   font-family: 'Segoe UI', 'Courier New', 'Quicksand', monospace;
-   padding: 2rem;
-   min-height: 100vh;
-   position: relative;
+      height: 100vh;
+      background: linear-gradient(135deg, #ececdd, #e4ddd6, #d4ddd6, #c4ddd6);
+      background-size: 400% 400%;
+      animation: gradiente 8s ease infinite;
+      font-family: "SN Pro", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      padding: 2rem;
+      min-height: 100vh;
+      position: relative;
+}
+
+@keyframes gradiente {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
 }
 
 /* fundo com corações e estrelinhas */
