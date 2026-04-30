@@ -100,23 +100,27 @@ body::before {
       padding: 1.5rem;
       border: 1px solid #394a56;
       box-shadow: 0 5px 12px #22303f;
+      height: 80vh;
+      overflow-y: auto;
+      position: sticky;
+      top: 2rem;
     }
 
     .nav-side h3 {
       color: #488db4;
-      font-size: 1.2rem;
-      margin-bottom: 1rem;
+      font-size: 1rem;
+      margin-bottom: 0.8rem;
       border-left: 4px solid #022f56;
       padding-left: 10px;
     }
 
     .nav-links {
       list-style: none;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     .nav-links li {
-      margin: 0.7rem 0;
+      margin: 0.5rem 0;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
